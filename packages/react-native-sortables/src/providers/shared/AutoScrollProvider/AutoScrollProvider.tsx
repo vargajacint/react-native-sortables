@@ -281,7 +281,7 @@ function AutoScrollUpdater({
     ]
   );
 
-  const frameCallback = useFrameCallback(frameCallbackFunction);
+  const frameCallback = useFrameCallback(frameCallbackFunction, false);
 
   const toggleFrameCallback = useCallback(
     (enabled: boolean) => {
